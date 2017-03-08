@@ -197,6 +197,8 @@ body::-webkit-scrollbar {
     top: 125%;
     width: 450px;;
     z-index: 0;
+    border-color: white;
+    border-width: 2px
 }
 
 .panel-title {
