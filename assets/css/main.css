@@ -95,8 +95,8 @@ html, body {
 }
 .name-tag {
     position: absolute;
-    top: 40%;
-    left: 80%;
+    top: 37%;
+    left: 75%;
     transform: translate(-50%, -50%);
     height: 100px;
 }
@@ -198,7 +198,8 @@ body::-webkit-scrollbar {
     width: 450px;;
     z-index: 0;
     border-color: white !important;
-    border-width: 2px !important;
+    border-width: 1px !important;
+    border-style: solid !important;
 }
 
 .panel-title {
@@ -291,6 +292,7 @@ body::-webkit-scrollbar {
     border-width: 2px;
     border-color: black
 }
+
 
 
 .project2 {
@@ -395,7 +397,7 @@ body::-webkit-scrollbar {
     padding-right: 0px;
     padding-top: 0px;
     position: absolute;
-    left: 36.0%;
+    left: 34.5%;
     top: 213%;
     font-size: 30px;
 }
@@ -411,7 +413,7 @@ body::-webkit-scrollbar {
     padding-right: 0px;
     padding-top: 0px;
     position: absolute;
-    right: 36.5%;
+    right: 35%;
     top: 213%;
     font-size: 30px;
 }
@@ -509,7 +511,7 @@ body::-webkit-scrollbar {
     padding-top: 0px;
     position: absolute;
     right: 44.4%;
-    top: 268.3%;
+    top: 267.7%;
     font-size: 65px;    
 }
 
