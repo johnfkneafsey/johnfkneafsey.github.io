@@ -192,12 +192,13 @@ body::-webkit-scrollbar {
     border-color: white !important;
     border-width: 1px !important;
     border-style: solid !important;
-    min-width: 20vw;
+    min-width: 100px;
+    width: 25vw;
 }
 
 .panel-body {
     text-align: left;
-    font-size: 1.2vw;
+    font-size:calc(2px + 1.2vw);
     
 }
 
@@ -309,7 +310,7 @@ body::-webkit-scrollbar {
 .page3-title {
     color: white;
     font-size: 6vmin;   
-    margin-top: 8vh; 
+    margin-top: 20vh; 
 }
 
 .set-width {
