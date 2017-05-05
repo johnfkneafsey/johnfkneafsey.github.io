@@ -156,7 +156,7 @@ body::-webkit-scrollbar {
 
 .tech-list {
     font-size: 8vmin;
-    margin-top: 15vh;
+    margin-top: 9vh;
     color: white;
 }
 
@@ -165,25 +165,23 @@ body::-webkit-scrollbar {
 }
 
 .skills {
-    margin-top: 12vh;
-    font-size: 6vmin;
+    font-size: 60px; 
     color: white;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 8vh;
+    margin-top: 0vh;
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;    
-    position: absolute;
-    right: 44.4%;    
+    text-align: center;
 }
 
 .text-panel-black {
     margin-left: 5vmin;
-    margin-right: 5vmin;
-    margin-top: 20vmin;
+    margin-right: 10vmin;
+    margin-top: 24vmin;
     margin-bottom: 10vmin;
     color: white;
     background: black;
@@ -198,8 +196,7 @@ body::-webkit-scrollbar {
 
 .panel-body {
     text-align: left;
-    font-size:calc(2px + 1.2vw);
-    
+    font-size:16px;
 }
 
 .page1-tech-list-title {
@@ -274,14 +271,11 @@ body::-webkit-scrollbar {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 8vh;
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 0px;
-    position: absolute;
-    right: 44.4%;
-    font-size: 6vmin;   
+    text-align: center;
+    font-size: 60px;   
 }
 
 .black-overlay {
@@ -304,17 +298,29 @@ body::-webkit-scrollbar {
     height: 25vh;
     text-align: left;
     z-index: 0;
-    margin-top: 8vh;
+    margin-top: 1vh;
 }
 
 .page3-title {
     color: white;
-    font-size: 6vmin;   
-    margin-top: 20vh; 
+    margin-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0vh;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 60px; 
+}
+.margin-title {
+    padding-top: 6vh;
+    padding-bottom: -6vh;
 }
 
 .set-width {
-    margin-top: 20vh;
+    margin-top: 2vh;
     width: 100vw;
 }
 
