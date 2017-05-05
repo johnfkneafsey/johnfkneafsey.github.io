@@ -175,9 +175,8 @@ body::-webkit-scrollbar {
 }
 
 .text-panel-black {
-    margin-left: 5vmin;
-    margin-right: 10vmin;
-    margin-top: 24vmin;
+    margin-right: 18vmin;
+    margin-top: 20vmin;
     margin-bottom: 10vmin;
     color: white;
     background: black;
@@ -187,7 +186,7 @@ body::-webkit-scrollbar {
     border-width: 1px !important;
     border-style: solid !important;
     min-width: 100px;
-    width: 25vw;
+    width: 30vw;
 }
 
 .panel-body {
