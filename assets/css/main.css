@@ -151,7 +151,7 @@ body::-webkit-scrollbar {
 }
 
 .tech-list {
-    font-size: 8vmin;
+    font-size: 70px;
     margin-top: 9vh;
     color: white;
 }
