@@ -151,7 +151,7 @@ body::-webkit-scrollbar {
 }
 
 .tech-list {
-    font-size: 70px;
+    font-size: 50px;
     margin-top: 9vh;
     color: white;
 }
@@ -298,11 +298,11 @@ body::-webkit-scrollbar {
 
 .page3-title {
     color: white;
-    margin-bottom: 16px;
+    margin-bottom: 6px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0vh;
-    padding-bottom: 16px;
+    padding-bottom: 6px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
@@ -317,6 +317,8 @@ body::-webkit-scrollbar {
 .set-width {
     margin-top: 2vh;
     width: 100vw;
+    margin-left: 25vw;
+    margin-right: auto;
 }
 
 .demo a {
