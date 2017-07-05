@@ -37,26 +37,37 @@
   analytics.page();
   }}();
 </script>
-<!--
+
 <script>
 
   function videoPlayed(videoName) {
-    analytics.track('Video played', {
-        category: 'video',
-        label: videoName
-    })
+
   }
-</script>-->
+</script>
 
 
 
 <script>
     window._wq = window._wq || [];
     _wq.push({ id: "c1ce2s7usq", onReady: function(video) {
-        console.log("I got a handle to the video!", video);
         video.bind("play", function() {
-            console.log('the following video is now playing: ', video.name())
+            analytics.track('Video played', {
+                category: 'video',
+                label: video.name()
+            })
         })
+        video.bind("pause", function() {
+            analytics.track('Video paused', {
+                category: 'video',
+                label: video.name()
+            })
+        })
+        video.bind("end", function() {
+            analytics.track('Video ended', {
+                category: 'video',
+                label: video.name()
+            })
+        })                
 
     }});
 </script>
