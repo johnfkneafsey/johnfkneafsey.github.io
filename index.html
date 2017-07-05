@@ -39,11 +39,14 @@
 </script>
 
 <script>
-  function skillsEvent() {
-    analytics.track('Clicked Skills', {
-        navbar: 'skills'
+
+  function videoPlayed(videoName) {
+    analytics.track('Video played', {
+        category: 'video',
+        label: videoName
     })
   }
+
 </script>
 
 
@@ -58,7 +61,7 @@
 
     <div id="topbar" class="topbarclass">
         <div class="menu-container">
-            <a class="menu-link" href="#page1"><span class="menu" onclick="skillsEvent()" >SKILLS</span></a>
+            <a class="menu-link" href="#page1"><span class="menu" onclick="videoPlayed('Charlie Bit My Finger')" >SKILLS</span></a>
             <a class="menu-link" href="#page2"><span class="menu">PROJECTS</span></a>
             <a class="menu-link" href="#page3"><span class="menu">BACKGROUND</span></a>
         </div>
@@ -134,7 +137,8 @@
                     <div class="project-links">
                         <a class="project-links" href="https://github.com/johnfkneafsey/easyBudgetDeployed" >Code</a> | <a class="project-links" href="https://easybudgetjfk.herokuapp.com/" >Demo</a>
                     </div>                    
-                    <img class="projectWindow"  alt="" src="./assets/img/easyBudget.png" />
+                    <!-- <img class="projectWindow"  alt="" src="./assets/img/easyBudget.png" /> -->
+                    <script src="https://fast.wistia.com/embed/medias/c1ce2s7usq.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:183.01% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_c1ce2s7usq videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
                 </div> 
                 <div class="col-md-3 project">
                     <div class="project-title">
