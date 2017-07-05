@@ -37,7 +37,7 @@
   analytics.page();
   }}();
 </script>
-
+<!--
 <script>
 
   function videoPlayed(videoName) {
@@ -46,20 +46,8 @@
         label: videoName
     })
   }
+</script>-->
 
-</script>
-
-
-<script>
-    window._wq = window._wq || [];
-    _wq.push({ id: "c1ce2s7usq", onReady: function(video) {
-        console.log("I got a handle to the video!", video);
-        video.bind("play", function() {
-            console.log('the following video is now playing: ', video.name())
-        })
-
-    }});
-</script>
 
 
 
@@ -149,6 +137,16 @@
                     </div>                    
                     <!-- <img class="projectWindow"  alt="" src="./assets/img/easyBudget.png" /> -->
                     <script src="https://fast.wistia.com/embed/medias/c1ce2s7usq.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:183.01% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_c1ce2s7usq videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+                    <script>
+                        window._wq = window._wq || [];
+                        _wq.push({ id: "c1ce2s7usq", onReady: function(video) {
+                            console.log("I got a handle to the video!", video);
+                            video.bind("play", function() {
+                                console.log('the following video is now playing: ', video.name())
+                            })
+
+                        }});
+                    </script>
                 </div> 
                 <div class="col-md-3 project">
                     <div class="project-title">
