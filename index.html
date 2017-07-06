@@ -45,6 +45,11 @@
             analytics.track('Video played', {
                 category: 'video',
                 label: video.name()
+            }, {
+                integrations: {
+                    'All': false,
+                    'Google Analytics': false
+                }
             })
         })
         video.bind("pause", function() {
