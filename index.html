@@ -71,6 +71,27 @@
     analytics.track('User Referred', 
         formatQs()
     );
+
+    function formatQs() {
+        var output = {};
+        var validUTM = {
+        "utm_source": true,
+        "utm_medium": true,
+        "utm_campaign": true,
+        "utm_term": true,
+        "utm_content": true
+        }
+        var qs = document.location.search.substring(1);
+        qs = qs.split('&');
+        for (var i = 0; i < qs.length; i++) {
+            var tokens = qs[i].split('=');
+            if (validUTM[tokens[0]]) {
+            output[tokens[0].toLowerCase()] = tokens[1];
+            }
+        }
+
+        return output;
+    }    
 </script>
              
 
